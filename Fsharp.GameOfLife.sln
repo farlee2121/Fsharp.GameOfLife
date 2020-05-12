@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Client.Console", "Client.Console\Client.Console.fsproj", "{83EB497C-AC97-422D-B6E9-9F3C90013402}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GameOfLife.Tests", "GameOfLife.Tests\GameOfLife.Tests.fsproj", "{92495EB1-899C-44CB-A7F6-C5CD9C4C5B1E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GameOfLife.Core", "GameOfLife.Core\GameOfLife.Core.fsproj", "{5658E091-1998-472F-9D25-C49CAD795817}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83EB497C-AC97-422D-B6E9-9F3C90013402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EB497C-AC97-422D-B6E9-9F3C90013402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EB497C-AC97-422D-B6E9-9F3C90013402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EB497C-AC97-422D-B6E9-9F3C90013402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92495EB1-899C-44CB-A7F6-C5CD9C4C5B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92495EB1-899C-44CB-A7F6-C5CD9C4C5B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92495EB1-899C-44CB-A7F6-C5CD9C4C5B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92495EB1-899C-44CB-A7F6-C5CD9C4C5B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5658E091-1998-472F-9D25-C49CAD795817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5658E091-1998-472F-9D25-C49CAD795817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5658E091-1998-472F-9D25-C49CAD795817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5658E091-1998-472F-9D25-C49CAD795817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
